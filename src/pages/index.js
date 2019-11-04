@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import WorkRoll from "../components/BlogRoll";
+import WorkRoll from "../components/WorkRoll";
 
 export default class WorkIndexPage extends React.Component {
   render() {
