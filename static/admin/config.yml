@@ -13,9 +13,9 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "src/pages/blog"
+  - name: "Side Notes"
+    label: "Side Notes"
+    folder: "src/pages/side-notes"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
