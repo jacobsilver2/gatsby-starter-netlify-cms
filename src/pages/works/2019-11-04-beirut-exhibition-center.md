@@ -6,8 +6,7 @@ description: 'Photography: Tinko Czetwertynski'
 featuredpost: false
 featuredimage: /img/beirutfeatured.png
 tags:
-  - side-notes
-  - blog
+  - works
 ---
 **This bilingual Arabic and English visual identity was inspired by the mirrored facade of the Beirut Exhibition Center, a collaborative environment for art museums, galleries, artist collectives, and cultural institutions.**
 
