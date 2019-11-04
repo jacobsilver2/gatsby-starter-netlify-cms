@@ -55,7 +55,7 @@ export default () => (
       query WorkRollQuery {
         allMarkdownRemark(
           sort: { order: ASC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "work" } } }
+          filter: { frontmatter: { templateKey: { eq: "work-post" } } }
         ) {
           edges {
             node {
