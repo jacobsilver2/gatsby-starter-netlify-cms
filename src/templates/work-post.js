@@ -54,7 +54,7 @@ WorkPostTemplate.propTypes = {
   helmet: PropTypes.object
 };
 
-const BlogPost = ({ data }) => {
+const WorkPost = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
