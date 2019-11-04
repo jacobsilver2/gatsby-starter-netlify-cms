@@ -1,19 +1,9 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values
+templateKey: about-page
+title: About
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+Mary is a freelance creative who does her best work collaboratively. Some projects in her position as an art director at Ralph Appelbaum Associates include exhibition and media design for the Canadian Museum for Human Rights, Patricia and Phillip Frost Museum of Science, Moody Gardens, as well as an art museum in Beirut.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+Early on, she discovered that scissors can do magic and engaged in a career of perfecting cut out techniques in bright colors. Her love for paper is only equaled by her love for what is on the paper; stories, images, typography, and all the white space in between. Her typography work for the Beirut Exhibition Center signage was a Professional Runner-Up at the Core77 Design Awards. Her design work in print, branding, web and exhibition design has taken her to Lebanon, Amsterdam, and New York where she worked on the branding of Mathaf, the Museum of Modern Arab Art in Qatar with Wolff Olins.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
-
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
-
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+She would love to hear from you!
