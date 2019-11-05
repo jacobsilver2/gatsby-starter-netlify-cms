@@ -2,14 +2,14 @@
 templateKey: work-post
 title: MeLab Gallery in The Phillip and Patricia Frost Museum of Science
 date: 2019-11-05T13:03:37.043Z
-description: >-
-  MeLab Gallery at Frost Science museum in exhibition mode by day (above) and
-  event mode by night (below).
+description: MeLab Gallery in The Phillip and Patricia Frost Museum of Science
 featuredpost: false
 featuredimage: /img/melabfeatured.png
 tags:
   - work
 ---
+![](/img/melab1.png "MeLab Gallery at Frost Science museum in exhibition mode by day (above) and event mode by night (below).")
+
 ![](/img/melab2.png "Overall Plan and Typical Design Units")
 
 ![](/img/melab3.jpg)
