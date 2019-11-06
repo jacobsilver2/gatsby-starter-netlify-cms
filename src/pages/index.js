@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import WorkRoll from "../components/WorkRoll";
+import WorksRoll from "../components/WorksRoll";
 
 export default class WorkIndexPage extends React.Component {
   render() {
@@ -9,7 +9,7 @@ export default class WorkIndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <WorkRoll />
+              <WorksRoll />
             </div>
           </div>
         </section>
