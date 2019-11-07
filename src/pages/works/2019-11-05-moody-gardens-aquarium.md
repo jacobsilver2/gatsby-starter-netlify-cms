@@ -7,6 +7,7 @@ featuredpost: false
 featuredimage: /img/moodycroppedfeatured.png
 tags:
   - works
+  - password
 ---
 ![](/img/moody1.png)
 
