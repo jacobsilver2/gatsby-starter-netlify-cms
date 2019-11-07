@@ -10,9 +10,11 @@ tags:
 ---
 ![](/img/ocean1.gif)
 
-**Clean typographic moves, user-friendly iconography, and intuitive search functions guide students and educators through the permanent website home of the podcast Ocean Gazing, produced for COSEE Now (Centers for Ocean Sciences Education Excellence).** 
+# Ocean Gazing Website
 
-The easy-to-navigate design integrated a set of custom search functions to allow users to explore the 52 podcasts and associated educational materials through a range of entry points, including topic keywords, national science education standards and other educational filters, geographic location, and featured stories.
+## Clean typographic moves, user-friendly iconography, and intuitive search functions guide students and educators through the permanent website home of the podcast Ocean Gazing, produced for COSEE Now (Centers for Ocean Sciences Education Excellence).
+
+### The easy-to-navigate design integrated a set of custom search functions to allow users to explore the 52 podcasts and associated educational materials through a range of entry points, including topic keywords, national science education standards and other educational filters, geographic location, and featured stories.
 
 ![](/img/ocean2.png)
 
