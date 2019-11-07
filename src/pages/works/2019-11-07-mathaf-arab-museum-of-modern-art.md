@@ -14,9 +14,9 @@ tags:
 
 ## Evoking conversation, sparks of ideas, and Arabic visual forms, this identity was a conceptual approach to branding for an art museum in Doha, Qatar, whose mission was to be a home for current dialogue about Arab modern and contemporary art.
 
-The design approach was inspired by the Qatari national flag and the prominence of geometric forms in Arabic culture. The identity integrates patterns that visualize an active exchange of ideas, resulting in a contemporary interpretation of traditional design techniques.
+### The design approach was inspired by the Qatari national flag and the prominence of geometric forms in Arabic culture. The identity integrates patterns that visualize an active exchange of ideas, resulting in a contemporary interpretation of traditional design techniques.
 
-Completed at [Wolff Olins.](https://www.wolffolins.com/)
+### Completed at [Wolff Olins.](https://www.wolffolins.com/)
 
 ![](/img/mathab2.gif)
 

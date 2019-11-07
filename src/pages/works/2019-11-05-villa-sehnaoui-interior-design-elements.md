@@ -10,11 +10,13 @@ tags:
 ---
 ![](/img/villa1.png "All Photography Credit: Atelier Hapsitus")
 
-**The design of interior elements for a residence in Lebanon explored three ways of formally and visually experimenting with Arabic lettering and traditional calligraphy, transforming it into a contemporary statement within three-dimensional space.** 
+# Villa Sehnaoui Interior Design Elements 
 
-A shelving system is based on an old Islamic calligraphic tradition called square or geometric Kufi, and reveals the names of the home’s owners. A floor tiling detail and door handle are plays on another Arabic calligraphic script, Naskh, using it both formally and in distorted expressions.
+## The design of interior elements for a residence in Lebanon explored three ways of formally and visually experimenting with Arabic lettering and traditional calligraphy, transforming it into a contemporary statement within three-dimensional space.
 
-Completed while at [Atelier Hapsitus](https://www.hapsitus.com/)
+### A shelving system is based on an old Islamic calligraphic tradition called square or geometric Kufi, and reveals the names of the home’s owners. A floor tiling detail and door handle are plays on another Arabic calligraphic script, Naskh, using it both formally and in distorted expressions.
+
+### Completed while at [Atelier Hapsitus](https://www.hapsitus.com/)
 
 ![](/img/villa2.png)
 
