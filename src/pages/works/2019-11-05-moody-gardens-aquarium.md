@@ -11,9 +11,10 @@ tags:
 ---
 ![](/img/moody1.png)
 
-# A redesign of a 1.5 million-gallon aquatic attraction uses friendly and elegant typography, illustrations, and bold color to give visitors a feeling of traveling underwater.
+# Moody Gardens Aquarium
+## A redesign of a 1.5 million-gallon aquatic attraction uses friendly and elegant typography, illustrations, and bold color to give visitors a feeling of traveling underwater.
 
-## Original icons serve as welcoming signage to identify different exhibit zones, and color is used immersively to denote these zones along the walls and floors. Dimensional ramp murals let visitors feel they are part of each underwater area. Illustrations of numerous species of flora and fauna were developed using detailed cut-outs; these appear throughout the exhibition, including triptychs of fun facts designed to engage kids at their own height.
+### Original icons serve as welcoming signage to identify different exhibit zones, and color is used immersively to denote these zones along the walls and floors. Dimensional ramp murals let visitors feel they are part of each underwater area. Illustrations of numerous species of flora and fauna were developed using detailed cut-outs; these appear throughout the exhibition, including triptychs of fun facts designed to engage kids at their own height.
 
 ### Completed at [Ralph Appelbaum Associates.](http://www.raany.com/)
 
