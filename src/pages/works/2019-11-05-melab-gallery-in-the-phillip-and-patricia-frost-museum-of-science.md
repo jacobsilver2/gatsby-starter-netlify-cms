@@ -7,6 +7,7 @@ featuredpost: false
 featuredimage: /img/melabfeatured.png
 tags:
   - work
+  - password
 ---
 # MeLab Gallery in The Phillip and Patricia Frost Museum of Science
 
