@@ -8,7 +8,8 @@ import styled from "styled-components";
 
 const StyledHtml = styled.div`
   h1,
-  h2 {
+  h2,
+  h3 {
     padding-left: 25%;
   }
   /* p:first-of-type {
