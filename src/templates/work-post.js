@@ -4,6 +4,17 @@ import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import styled from "styled-components";
+
+const StyledHtml = styled.div`
+  h1,
+  h2 {
+    padding-left: 25%;
+  }
+  /* p:first-of-type {
+    padding-left: 25%;
+  } */
+`;
 
 export const WorkPostTemplate = ({
   content,
@@ -12,16 +23,16 @@ export const WorkPostTemplate = ({
   helmet
 }) => {
   const PostContent = contentComponent || Content;
+  console.log(content);
   return (
     <section className="section">
       {helmet || ""}
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h1 className="title has-text-centered is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <PostContent content={content} />
+            <StyledHtml>
+              <PostContent content={content} />
+            </StyledHtml>
           </div>
         </div>
       </div>
