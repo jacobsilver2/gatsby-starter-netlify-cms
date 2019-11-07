@@ -8,6 +8,14 @@ featuredimage: /img/melabfeatured.png
 tags:
   - work
 ---
+# MeLab Gallery in The Phillip and Patricia Frost Museum of Science
+
+## An elaborate, icon-driven, illustration program characterizes the design of this science museum gallery, of which a key feature is the ability to pack away exhibit elements into an event mode every evening.
+
+A set of bilingual activity “portals” prioritized hands-on learning, and were designed to convey complex scientific or social concepts with visuals and minimal text. Their design featured custom infographics, over 300 icons, a friendly character that joins visitors throughout their journey, and a card to collect stamps at each portal. When set in event mode, a patterned design treatment is revealed on the back of each portal.
+
+Completed at [Ralph Appelbaum Associates.](http://www.raany.com/)
+
 ![](/img/melab1.png "MeLab Gallery at Frost Science museum in exhibition mode by day (above) and event mode by night (below).")
 
 ![](/img/melab2.png "Overall Plan and Typical Design Units")
