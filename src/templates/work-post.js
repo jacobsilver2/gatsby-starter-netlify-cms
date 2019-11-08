@@ -8,8 +8,18 @@ import styled from "styled-components";
 
 const StyledHtml = styled.div`
   h1,
-  h2 {
+  h2,
+  h3 {
     padding-left: 25%;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  h3 {
+    font-size: 1em;
+    font-weight: normal;
   }
   /* p:first-of-type {
     padding-left: 25%;
@@ -27,9 +37,9 @@ export const WorkPostTemplate = ({
   return (
     <section className="section">
       {helmet || ""}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
+      <div className="content">
+        <div className="columns is-fullwidth">
+          <div className="column is-12">
             <StyledHtml>
               <PostContent content={content} />
             </StyledHtml>
