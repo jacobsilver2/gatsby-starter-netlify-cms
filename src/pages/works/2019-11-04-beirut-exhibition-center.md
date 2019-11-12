@@ -17,7 +17,6 @@ tags:
 
 ### [A Logotype In Beirut Bridges The Gap Between East And West](https://www.fastcodesign.com/1664877/a-logotype-in-beirut-bridges-the-gap-between-east-and-west)\
 fastcodesign.com
-
 ### In collaboration with [L.E.FT  Architects](http://www.leftish.net/)
 
 ![](/img/beirut2.png)
