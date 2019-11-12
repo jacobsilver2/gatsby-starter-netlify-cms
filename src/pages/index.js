@@ -7,10 +7,9 @@ export default class WorkIndexPage extends React.Component {
     return (
       <Layout>
         <section className="section">
-          <div className="container">
-            <div className="content">
-              <WorksRoll />
-            </div>
+          {/* add a div with classname container to bring back a centered column view */}
+          <div className="content">
+            <WorksRoll />
           </div>
         </section>
       </Layout>

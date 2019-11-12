@@ -11,6 +11,18 @@ const StyledHtml = styled.div`
   h2,
   h3 {
     padding-left: 25%;
+    padding-right: 25%;
+    /* width: 75%; */
+    /* text-align: center; */
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  h3 {
+    font-size: 1em;
+    font-weight: normal;
   }
   /* p:first-of-type {
     padding-left: 25%;
@@ -24,13 +36,12 @@ export const WorkPostTemplate = ({
   helmet
 }) => {
   const PostContent = contentComponent || Content;
-  console.log(content);
   return (
     <section className="section">
       {helmet || ""}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
+      <div className="content">
+        <div className="columns is-fullwidth">
+          <div className="column is-12">
             <StyledHtml>
               <PostContent content={content} />
             </StyledHtml>
