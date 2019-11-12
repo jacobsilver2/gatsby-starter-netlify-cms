@@ -1,15 +1,23 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
-import WorkRollTile from "./WorkRollTile";
+// import WorkRollTile from "./WorkRollTile";
+import GridItem from "./GridItem";
+import styled from "styled-components";
 
-function WorksRoll(props) {
-  const { data } = props;
+const StyledContainer = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+`;
+
+function WorksRoll({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
   return (
-    <div className="columns is-multiline">
-      {posts && posts.map(({ node: post }) => <WorkRollTile post={post} />)}
-    </div>
+    <StyledContainer>
+      {posts &&
+        posts.map(({ node: post }) => <GridItem key={post.id} post={post} />)}
+    </StyledContainer>
   );
 }
 

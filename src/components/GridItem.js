@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-import PreviewCompatibleImage from "./PreviewCompatibleImage";
-import Img from "gatsby";
-import styled from "styled-components";
+import Img from "gatsby-image";
 import { spring, Motion } from "react-motion";
+import styled from "styled-components";
 
 const StyledGridItem = styled.div`
-  .grid-item {
-    /* width: 100%; */
+  .container {
+    display: table;
+    cursor: pointer;
+    width: 100%;
   }
   .subcontainer {
     position: relative;
@@ -21,8 +22,8 @@ const StyledGridItem = styled.div`
   .title {
     text-align: center;
     font-size: 18px;
-    color: black;
-    /* position: relative; */
+    color: white;
+    position: absolute;
     top: 5%;
     left: 5%;
   }
@@ -34,8 +35,7 @@ const StyledGridItem = styled.div`
     font-weight: 400;
   }
   .overlay {
-    /* position: absolute; */
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -49,7 +49,7 @@ const StyledGridItem = styled.div`
   }
 `;
 
-function WorkRollTile({ post }) {
+const GridItem = ({ post }) => {
   const [isHovering, setIsHovering] = useState(false);
   const getSpringProps = () => {
     return {
@@ -71,39 +71,49 @@ function WorkRollTile({ post }) {
   return (
     <Motion {...getSpringProps()}>
       {motionStyle => {
+        let styleImage = {
+          transform: "scale(" + motionStyle.scale + ")",
+          opacity: motionStyle.imageOpacity
+        };
         let styleSubtitle = { opacity: motionStyle.opacity };
         return (
           <StyledGridItem
             onMouseEnter={() => setIsHovering(true)}
             onMouseLeave={() => setIsHovering(false)}
-            key={post.id}
           >
-            <div className="subcontainer">
-              <Link to={post.fields.slug}>
-                {post.frontmatter.featuredimage ? (
-                  <div className="containerImage">
-                    <PreviewCompatibleImage
-                      imageInfo={{
-                        image: post.frontmatter.featuredimage,
-                        alt: `featured image thumbnail for post ${post.title}`
-                      }}
-                    />
-                    <div className="overlay">
-                      <div className="title" style={styleSubtitle}>
-                        <div className="titleText">
-                          <p>{post.frontmatter.title}</p>
-                        </div>
+            <Link to={post.fields.slug}>
+              <div className="container">
+                <div className="subcontainer">
+                  <div className="conatainerImage">
+                    {post.frontmatter.featuredimage && (
+                      <Img
+                        fluid={
+                          post.frontmatter.featuredimage.childImageSharp.fluid
+                        }
+                        alt={post.frontmatter.title}
+                        style={styleImage}
+                      />
+                    )}
+                  </div>
+                  <div className="overlay">
+                    <div className="title" style={styleSubtitle}>
+                      <div className="titleText">
+                        <p
+                          dangerouslySetInnerHTML={{
+                            __html: post.frontmatter.title
+                          }}
+                        />
                       </div>
                     </div>
                   </div>
-                ) : null}
-              </Link>
-            </div>
+                </div>
+              </div>
+            </Link>
           </StyledGridItem>
         );
       }}
     </Motion>
   );
-}
+};
 
-export default WorkRollTile;
+export default GridItem;
