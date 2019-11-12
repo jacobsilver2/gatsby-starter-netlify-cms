@@ -11,6 +11,9 @@ const StyledHtml = styled.div`
   h2,
   h3 {
     padding-left: 25%;
+    padding-right: 25%;
+    /* width: 75%; */
+    /* text-align: center; */
   }
 
   h2 {
@@ -33,7 +36,6 @@ export const WorkPostTemplate = ({
   helmet
 }) => {
   const PostContent = contentComponent || Content;
-  console.log(content);
   return (
     <section className="section">
       {helmet || ""}
