@@ -16,8 +16,8 @@ tags:
 
 ### It brings together custom typefaces used in illustrative ways, playfully rhyming parables, and a cast of animals in allegorical roles to suggest the pitfalls of misinterpreting and rewriting history. The structure of the publication is also performative itself, starting with an accordion-like foldout as the reader’s entry point.
 
-### A [reading](http://dev.uniondocs.org/?p=17771) of Contes Féeriques was performed in collaboration with ArteEast.\
-In parallel, an extract was published in ArteEast's quarterly [Shahadat](https://issuu.com/arteeast/docs/fall2012_shahadat/3).
+### A [reading](http://dev.uniondocs.org/?p=17771) of Contes Féeriques was performed in collaboration with ArteEast.
+### In parallel, an extract was published in ArteEast's quarterly [Shahadat](https://issuu.com/arteeast/docs/fall2012_shahadat/3).
 
 ![](/img/contes2.png)
 
