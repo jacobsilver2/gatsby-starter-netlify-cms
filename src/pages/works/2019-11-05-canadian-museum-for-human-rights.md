@@ -2,7 +2,7 @@
 templateKey: work-post
 title: Canadian Museum for Human Rights
 date: 2019-11-05T14:03:44.702Z
-description: Canadian Museum for Human Rights
+description: protected
 featuredpost: false
 featuredimage: /img/canadian-museum-for-human-rightssquare.png
 tags:
