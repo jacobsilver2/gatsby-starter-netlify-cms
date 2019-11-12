@@ -2,7 +2,7 @@
 templateKey: work-post
 title: Moody Gardens Aquarium
 date: 2019-11-05T12:58:52.254Z
-description: Moody Gardens Aquarium
+description: protected
 featuredpost: false
 featuredimage: /img/moodycroppedfeatured.png
 tags:
