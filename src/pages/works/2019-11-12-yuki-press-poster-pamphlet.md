@@ -12,7 +12,7 @@ tags:
 
 # Yuki Press Poster Pamphlet
 
-## A playful, foldable poster pamphlet blends whimsical cutouts, bright colors, and custom Latin and Arabic type to reflect the creativity of Yuki Press’ diverse children’s and educational publications. 
+## A playful, foldable poster pamphlet blends whimsical cutouts, bright colors, and custom Latin and Arabic type to reflect the creativity of Yuki Press’ diverse children’s and educational publications.
 
 ### This project included art direction, design, photography, and typography design for a publication designed to be effective both as a mailed piece and when distributed at numerous international books fairs. Rather than a traditional book format, the foldable poster design showed all of Yuki Press’ publications at once when opened flat.
 
