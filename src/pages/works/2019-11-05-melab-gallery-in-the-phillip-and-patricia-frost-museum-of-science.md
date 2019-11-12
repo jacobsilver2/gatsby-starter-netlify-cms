@@ -2,7 +2,7 @@
 templateKey: work-post
 title: MeLab Gallery in The Phillip and Patricia Frost Museum of Science
 date: 2019-11-05T13:03:37.043Z
-description: MeLab Gallery in The Phillip and Patricia Frost Museum of Science
+description: protected
 featuredpost: false
 featuredimage: /img/melabfeatured.png
 tags:
