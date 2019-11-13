@@ -7,8 +7,8 @@ import styled from "styled-components";
 
 const StyledContainer = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 530px));
+  grid-gap: 1rem;
 `;
 
 function WorksRoll({ data }) {
