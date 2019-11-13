@@ -4,49 +4,60 @@ import Img from "gatsby-image";
 import { spring, Motion } from "react-motion";
 import styled from "styled-components";
 
-const StyledGridItem = styled.div`
-  .container {
-    display: table;
-    cursor: pointer;
-    width: 100%;
-  }
-  .subcontainer {
-    position: relative;
-    background-color: #2f3238;
-    overflow: hidden;
-  }
-  .containerImage {
-    position: relative;
-    background-color: #17819c;
-  }
-  .title {
-    text-align: center;
-    font-size: 18px;
-    color: white;
-    position: absolute;
-    top: 5%;
-    left: 5%;
-  }
-  .titleText {
-    font-size: 30px;
-    position: relative;
-    font-family: fertigo-pro, serif;
-    font-style: normal;
-    font-weight: 400;
-  }
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  .img {
-    width: 100%;
-    cursor: pointer;
-    position: relative;
-    vertical-align: middle;
-  }
+// const StyledContainer = styled.div`
+//   width: 100%;
+// `;
+const StyledContainer = styled.div`
+  /* display: flex; */
+  min-width: 20rem;
+  width: calc((100% - 1rem * 3 * 2) / 3);
+  height: 100%;
+  /* padding: 1rem; */
+  margin: 0.75rem;
+  align-items: center;
+  /* justify-content: center; */
+`;
+
+const StyledSubcontainer = styled.div`
+  position: relative;
+  /* background-color: #2f3238; */
+  overflow: hidden;
+`;
+const StyledContainerImage = styled.div`
+  position: relative;
+  background-color: #17819c;
+`;
+const StyledTitle = styled.div`
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+`;
+const StyledTitleText = styled.div`
+  font-size: 2rem;
+  position: relative;
+  font-family: fertigo-pro, serif;
+  font-style: normal;
+  font-weight: 400;
+`;
+const StyledOverlay = styled.div`
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+`;
+
+const StyledProtectedText = styled.p`
+  font-size: 1rem;
+`;
+
+const StyledImage = styled.div`
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
 `;
 
 const GridItem = ({ post }) => {
@@ -77,39 +88,42 @@ const GridItem = ({ post }) => {
         };
         let styleSubtitle = { opacity: motionStyle.opacity };
         return (
-          <StyledGridItem
+          <StyledContainer
             onMouseEnter={() => setIsHovering(true)}
             onMouseLeave={() => setIsHovering(false)}
           >
             <Link to={post.fields.slug}>
-              <div className="container">
-                <div className="subcontainer">
-                  <div className="conatainerImage">
-                    {post.frontmatter.featuredimage && (
-                      <Img
-                        fluid={
-                          post.frontmatter.featuredimage.childImageSharp.fluid
-                        }
-                        alt={post.frontmatter.title}
-                        style={styleImage}
+              <StyledSubcontainer>
+                <StyledContainerImage>
+                  {post.frontmatter.featuredimage && (
+                    <Img
+                      fluid={
+                        post.frontmatter.featuredimage.childImageSharp.fluid
+                      }
+                      alt={post.frontmatter.title}
+                      style={styleImage}
+                    />
+                  )}
+                </StyledContainerImage>
+                <StyledOverlay>
+                  <StyledTitle style={styleSubtitle}>
+                    <StyledTitleText>
+                      <p
+                        dangerouslySetInnerHTML={{
+                          __html: post.frontmatter.title
+                        }}
                       />
-                    )}
-                  </div>
-                  <div className="overlay">
-                    <div className="title" style={styleSubtitle}>
-                      <div className="titleText">
-                        <p
-                          dangerouslySetInnerHTML={{
-                            __html: post.frontmatter.title
-                          }}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                      {post.frontmatter.description === "protected" && (
+                        <StyledProtectedText>
+                          password protected
+                        </StyledProtectedText>
+                      )}
+                    </StyledTitleText>
+                  </StyledTitle>
+                </StyledOverlay>
+              </StyledSubcontainer>
             </Link>
-          </StyledGridItem>
+          </StyledContainer>
         );
       }}
     </Motion>

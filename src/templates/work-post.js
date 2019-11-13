@@ -5,6 +5,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import styled from "styled-components";
+import Footer from "../components/Footer";
 
 const StyledHtml = styled.div`
   h1,
@@ -48,6 +49,7 @@ export const WorkPostTemplate = ({
           </div>
         </div>
       </div>
+      <Footer />
     </section>
   );
 };

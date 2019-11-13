@@ -5,10 +5,16 @@ import { graphql, StaticQuery } from "gatsby";
 import GridItem from "./GridItem";
 import styled from "styled-components";
 
+// const StyledContainer = styled.div`
+//   display: grid;
+//   grid-template-columns: repeat(auto-fit, minmax(200px, 530px));
+//   grid-gap: 1rem;
+// `;
 const StyledContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 530px));
-  grid-gap: 1rem;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
 `;
 
 function WorksRoll({ data }) {
@@ -46,6 +52,7 @@ export default () => (
               }
               frontmatter {
                 title
+                description
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
